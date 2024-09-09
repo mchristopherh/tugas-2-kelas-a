@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/kalkulator"
+        android:text="Kalkulator"
+        android:textStyle="bold"
+        android:layout_marginTop="80dp"
+        android:textSize="30sp"
+        android:textColor="@color/black"/>
+
+    <EditText
+        android:id="@+id/number1"
+        android:hint="Enter number"
+        android:inputType="numberDecimal"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="48dp" />
+
+    <EditText
+        android:id="@+id/number2"
+        android:hint="Enter number"
+        android:inputType="numberDecimal"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="48dp" />
+
+    <RadioGroup
+        android:id="@+id/radiogrup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp">
+
+        <RadioButton
+            android:id="@+id/tambah"
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:layout_margin="10dp"
+            android:text="+"
+            android:textSize="48sp" />
+
+        <RadioButton
+            android:id="@+id/kurang"
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:layout_margin="10dp"
+            android:text="-"
+            android:textSize="48sp" />
+
+        <RadioButton
+            android:id="@+id/kali"
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:layout_margin="10dp"
+            android:text="×"
+            android:textSize="48sp" />
+
+        <RadioButton
+            android:id="@+id/bagi"
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:layout_margin="10dp"
+            android:text="÷"
+            android:textSize="48sp" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btn_hitung"
+        android:layout_width="96dp"
+        android:layout_height="48dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:text="Hitung" />
+
+</LinearLayout>

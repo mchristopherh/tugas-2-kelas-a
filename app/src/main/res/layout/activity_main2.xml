@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main2"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/nama"
+        android:text="Michael Christopher Harijanto"
+        android:textStyle="bold"
+        android:layout_marginTop="30dp"
+        android:textSize="30sp"
+        android:padding="20dp"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/nim"
+        android:text="NIM: 225150407111041"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:padding="20dp"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/hasil"
+        android:text="Hasil:"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:padding="20dp"
+        android:textColor="@color/black"/>
+
+</LinearLayout>
